@@ -3,8 +3,6 @@ CREATE DATABASE JdbcRpg;
 
 USE JdbcRpg;
 
-DROP TABLE RpgEntry, Options, Options_RpgEntry;
-
 CREATE TABLE RpgEntry (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
   description VARCHAR(2000),
